@@ -16,6 +16,17 @@
     display: grid;
     place-items: center;
  }
+
+ .roated{
+   animation: is-rotating 999s infinite;
+ }
+
+ @keyframes is-rotating{
+   to{
+      transform: rotate(100turn);
+   }
+   
+ }
  
  main{
     background: url(images/Mobile-quadriculado.png);
